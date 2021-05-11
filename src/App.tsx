@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-interface Props {
-  
-}
+import { Search} from "./components/search"
+
 
 export const App:React.FC = () => {
   return (
-    <div>
-      hello
-    </div>
+    <Search country="usa"/>
   )
 }
 
